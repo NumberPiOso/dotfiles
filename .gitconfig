@@ -1,0 +1,14 @@
+[user]
+	name = Pablo Osorio Lopez
+	email = posorio@sier.com.co
+	signingkey = 88FEBDACAD05F6B0D907D6E4E8B96E8EBACC45CD
+[core]
+	editor = vim
+	# excludesfile = .vscode
+[alias]
+	graph = log --all --graph --decorate --oneline
+	l = log
+[merge]
+	tool = vimdiff
+[commit]
+	gpgsign = true
