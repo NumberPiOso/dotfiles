@@ -1,0 +1,15 @@
+[user]
+	name = Pablo Osorio López
+	email = 46936498+NumberPiOso@users.noreply.github.com
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = /Users/pi/.gitignore
+	autocrlf = false
+	editor = vim
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[merge]
+	tool = vimdiff
