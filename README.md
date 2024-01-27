@@ -18,6 +18,7 @@ gh repo clone NumberPiOso/dotfiles
 ```zsh
 ln -s ~/dotfiles/.zshrc ~/.zshrc
 ln -s ~/dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/dotfiles/.p10k ~/.p10k
 ```
 
 
