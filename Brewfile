@@ -110,14 +110,10 @@ cask "docker"
 cask "doubletwist"
 # VPN client for secure internet access and private browsing
 cask "expressvpn"
-# Web browser
-cask "firefox"
 # Screen color temperature controller
 cask "flux"
 # Clipboard manager for developers
 cask "flycut"
-# Fabric agent with endpoint protection and cloud sandbox
-cask "forticlient"
 # Web browser
 cask "google-chrome"
 # Client for the Google Drive storage service
@@ -126,16 +122,10 @@ cask "google-drive"
 cask "iterm2"
 # Free cross-platform office suite, fresh version
 cask "libreoffice"
-# Full TeX Live distribution with GUI applications
-cask "mactex"
-# Fork of Nylas Mail
-cask "mailspring"
 # Tool to control external monitor brightness & volume
 cask "monitorcontrol"
 # App to write, plan, collaborate, and get organized
 cask "notion"
-# Administration and development platform for PostgreSQL
-cask "qlmarkdown"
 # QuickLook plugin to view patch files
 cask "qlprettypatch"
 # QuickLook plugin for plaintext files without an extension
