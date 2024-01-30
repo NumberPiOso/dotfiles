@@ -4,7 +4,6 @@ tap "homebrew/bundle"
 tap "homebrew/services"
 tap "kreuzwerker/taps"
 tap "microsoft/git"
-tap "microsoft/mssql-release"
 # General-purpose data compression with high compression ratio
 brew "xz"
 # Tool for generating GNU Standards-compliant Makefiles
@@ -47,8 +46,6 @@ brew "git-filter-repo"
 brew "gnupg"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.12"
-# Easy way to access the system keyring service from python
-brew "keyring", link: false
 # Portable Foreign Function Interface library
 brew "libffi"
 # Provides library functionality for FIDO U2F & FIDO 2.0, including USB
@@ -106,8 +103,6 @@ cask "cheatsheet"
 cask "dbeaver-community"
 # App to build and share containerized applications and microservices
 cask "docker"
-# Sync your music, videos and pictures over USB or WiFi
-cask "doubletwist"
 # VPN client for secure internet access and private browsing
 cask "expressvpn"
 # Screen color temperature controller
@@ -116,8 +111,6 @@ cask "flux"
 cask "flycut"
 # Web browser
 cask "google-chrome"
-# Client for the Google Drive storage service
-cask "google-drive"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Free cross-platform office suite, fresh version
