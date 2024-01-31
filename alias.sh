@@ -1,3 +1,4 @@
+alias clip='cd /Users/pi/proyects/dbt-models/dbt_models/clip_dashboards'
 alias cppcompile='c++ -std=c++11 -stdlib=libc++'
 alias men= 'cd "/Users/pi/proyects/men" && source venv/bin/activate'
 alias sisc='cd "/Users/pi/proyects/sisc" && export $(xargs < .env)'
