@@ -28,3 +28,6 @@ ln -s ~/dotfiles/zsh/oh-my-zsh ~/.oh-my-zsh
 ```zsh
 cd ~/dotfiles && brew bundle
 ```
+## Rectangle
+ Import, Mark launch at login
+
