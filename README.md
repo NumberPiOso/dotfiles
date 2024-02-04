@@ -18,6 +18,8 @@ ln -s ~/dotfiles/.zshrc ~/.zshrc
 ln -s ~/dotfiles/.gitconfig ~/.gitconfig
 # ln -s ~/dotfiles/.p10k ~/.p10k
 ln -s ~/dotfiles/zsh/oh-my-zsh ~/.oh-my-zsh
+# altab
+ln -s ~/dotfiles/altab/com.lwouis.alt-tab-macos.plist  ~/Library/Preferences/com.lwouis.alt-tab-macos.plist
 ```
 
 ```zsh
