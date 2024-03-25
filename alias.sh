@@ -9,25 +9,15 @@ alias argos="cd '/Users/pi/proyects/argos' && conda activate optimization"
 alias analytics='cd "/Users/pi/proyects/hubspot-analytics" && export $(xargs < .env)'
 alias fdbt='analytics && conda activate py311 && cd "dbt_project"'
 alias fterraform='analytics && cd infrastructure-airbyte'
-
-alias list_ports="lsof -i -P -n | grep LISTEN"
 alias dsa='cd "/Users/pi/proyects/robin/dsa-elt" && conda activate dsa-elt && export $(xargs < .env)'
 
 
-
+alias list_ports="lsof -i -P -n | grep LISTEN"
 alias dc='docker-compose'
 alias tf='terraform'
 alias myip='curl -4 ifconfig.me'
-
-# alias dsa="cd '/Users/pi/proyects/robin/dsa-elt' && export \$(cat .env | xargs) && conda activate dsa-elt"
-
-# alias dsa='cd "/Users/pi/proyects/robin/dsa-elt" && conda activate dsa-elt && export $(xargs < .env) &&  export GOOGLE_APPLICATION_CREDENTIALS="/Users/pablo.osorio/bigquery_cred/dsa-src-cd4dcb45c075.json" && export GOOGLE_APPLICATION_CREDENTIALS_CONTENT=$(cat $GOOGLE_APPLICATION_CREDENTIALS)'
-# alias manifest='cd "/Users/pablo.osorio/proyects/robin/dagster-airbyte-dbt" && export $(xargs < .env) && conda activate dagster-airbyte-dbt'
-# alias argos='cd "/Users/pablo.osorio/proyects/argos_projects/argos" && conda activate argos'
-# alias argos_ui='cd "/Users/pablo.osorio/proyects/argos_projects/data_generation_ui" && source venv/bin/activate'
-# alias synthetic='cd "/Users/pablo.osorio/proyects/argos_projects/SyntheticDataCopulas" && source .venv/bin/activate'
-# alias dbtstudy='cd "/Users/pablo.osorio/proyects/dbt-tutorial" && conda activate dbt-tutorial && export $(xargs < .env)'
-# alias dagster_study='cd "/Users/pablo.osorio/proyects/one-time-proyects/dagster-crash-course/my-dagster-project" && source venv/bin/activate && export $(xargs < .env)' 
+alias ghcs="gh copilot suggest"
+alias ghce="gh copilot explain"
 
 function dnames-fn {
 	for ID in `docker ps | awk '{print $1}' | grep -v 'CONTAINER'`
@@ -46,4 +36,4 @@ function dip-fn {
     done
     echo -e $OUT | column -t
     unset OUT
-}
+
