@@ -2,6 +2,7 @@ alias clip='cd /Users/pi/proyects/dbt-models/dbt_models/clip_dashboards'
 alias cppcompile='c++ -std=c++11 -stdlib=libc++'
 alias men= 'cd "/Users/pi/proyects/men" && source venv/bin/activate'
 alias sisc='cd "/Users/pi/proyects/sisc" && export $(xargs < .env)'
+alias geosur='sisc && cd sisc-decoupled-applications/formulario-intervencion'
 alias sterraform='sisc && cd db_sisc_pg/infrastructure'
 alias susers='sisc && cd db_sisc_pg/infrastructure-users'
 alias argos="cd '/Users/pi/proyects/argos' && conda activate optimization"
@@ -36,4 +37,4 @@ function dip-fn {
     done
     echo -e $OUT | column -t
     unset OUT
-
+}
