@@ -5,7 +5,7 @@ tap "homebrew/services"
 tap "kreuzwerker/taps"
 tap "microsoft/git"
 # General-purpose data compression with high compression ratio
-brew "xz"
+# brew "xz"
 # Tool for generating GNU Standards-compliant Makefiles
 brew "automake"
 # Programmable completion for Bash 3.2
@@ -13,9 +13,9 @@ brew "bash-completion"
 # Parser generator
 brew "bison"
 # C parser in Python
-brew "pycparser"
+# brew "pycparser"
 # C Foreign Function Interface for Python
-brew "cffi"
+# brew "cffi"
 # Ruby environment tool
 brew "chruby"
 # Pack, ship and run any application as a lightweight container
@@ -37,7 +37,7 @@ brew "gdbm"
 # GitHub command-line tool
 brew "gh"
 # Interpreter for PostScript and PDF
-brew "ghostscript"
+# brew "ghostscript"
 # Library for command-line editing
 brew "readline"
 # Quickly rewrite git repository history
@@ -47,9 +47,9 @@ brew "gnupg"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.12"
 # Portable Foreign Function Interface library
-brew "libffi"
+# brew "libffi"
 # Provides library functionality for FIDO U2F & FIDO 2.0, including USB
-brew "libfido2"
+# brew "libfido2"
 # YAML Parser
 brew "libyaml"
 # Port scanning utility for large networks
@@ -57,7 +57,7 @@ brew "nmap"
 # Platform built on V8 to build network applications
 brew "node"
 # Manage multiple Node.js versions
-brew "nvm"
+# brew "nvm"
 # Development kit for the Java programming language
 brew "openjdk"
 # SSL/TLS VPN implementing OSI layer 2 or 3 secure network extension
@@ -65,7 +65,7 @@ brew "openvpn"
 # Tool for creating isolated virtual python environments
 brew "virtualenv"
 # Object-relational database system
-brew "postgresql@14"
+# brew "postgresql@14"
 # Framework for managing multi-language pre-commit hooks
 brew "pre-commit"
 # Simple, correct PEP 517 build frontend
@@ -79,7 +79,7 @@ brew "tree"
 # ODBC 3 connectivity for UNIX
 brew "unixodbc"
 # Executes a program periodically, showing output fullscreen
-brew "watch"
+# brew "watch"
 # Command-line interface for the Databricks platform
 brew "databricks/tap/databricks"
 # Terraform
@@ -104,7 +104,7 @@ cask "dbeaver-community"
 # App to build and share containerized applications and microservices
 cask "docker"
 # VPN client for secure internet access and private browsing
-cask "expressvpn"
+# cask "expressvpn"
 # Screen color temperature controller
 cask "flux"
 # Clipboard manager for developers
@@ -130,15 +130,15 @@ cask "quicklook-json"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Text editor for code, markup and prose
-cask "sublime-text"
+# cask "sublime-text"
 # Backup, recovery and cloning software
-cask "superduper"
+# cask "superduper"
 # Data visualization software
 cask "tableau"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
-cask "vlc"
+# cask "vlc"
 # QuickLook plugin for webp files
 cask "webpquicklook"
 vscode "aaron-bond.better-comments"
