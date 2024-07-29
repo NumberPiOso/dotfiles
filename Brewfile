@@ -85,7 +85,7 @@ brew "databricks/tap/databricks"
 # Terraform
 brew "hashicorp/tap/terraform"
 # CLI to support with downloading and compiling terraform providers for Mac with M1 chip.
-brew "kreuzwerker/taps/m1-terraform-provider-helper"
+# brew "kreuzwerker/taps/m1-terraform-provider-helper"
 cask "alfred"
 # Enable Windows-like alt-tab
 cask "alt-tab"
@@ -110,7 +110,7 @@ cask "flux"
 # Clipboard manager for developers
 cask "flycut"
 # Web browser
-cask "google-chrome"
+# cask "google-chrome"  # Google chrome usually is a requirement by admins
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Free cross-platform office suite, fresh version
@@ -140,7 +140,7 @@ cask "visual-studio-code"
 # Multimedia player
 # cask "vlc"
 # QuickLook plugin for webp files
-cask "webpquicklook"
+# cask "webpquicklook"
 vscode "aaron-bond.better-comments"
 vscode "eamodio.gitlens"
 vscode "ecmel.vscode-html-css"
